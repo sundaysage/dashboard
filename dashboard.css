@@ -1,0 +1,233 @@
+:root{
+    --bodybackgroundcolor: #f1f4faff;
+    --light-green:#b1f0dbff;
+    --hover-puple:#3a36dbff;
+    --barcolor-blue:#0090ffff;
+    --secondbar-grey:#d9e1e7ff;
+}
+body {
+    display: flex;
+    background-color:var(--bodybackgroundcolor);
+    height: 100%;
+}
+
+
+main {
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    overflow-Y: scroll;
+    height:100vh;
+    /* background-color: red; */
+}
+
+.black {
+    width: 6%;
+    height: 60%;
+    background-color: black;
+    border-radius: 100%;
+}
+
+nav {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.flex {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex input,
+.flex select {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 60%;
+    border-radius: 10px;
+    border: 1px solid rgb(164, 164, 164);
+    outline: none;
+}
+
+.flex select {
+    background-color: rgb(218, 249, 255);
+}
+
+.flex img {
+    height: 35px;
+}
+
+.balance-img {
+    width: 30%;
+}
+
+.balance-img-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navgp {
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.check {
+    height: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(180, 180, 180);
+    margin: 6px;
+    padding: 5px;
+    border-radius: 10px;
+    color: gray;
+}
+
+.chechbox-div {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.tmydiv {
+    background-color: rgb(189, 189, 189);
+    padding: 5px;
+    border-radius: 6px;
+    height: 70%;
+}
+
+.tmydiv button {
+    background-color: rgb(189, 189, 189);
+    color: rgb(103, 105, 106);
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+}
+
+.tmydiv button:hover {
+    color: white;
+    background-color: black;
+    transition: linear 1s ;
+}
+
+.months {
+    display: flex;
+    justify-content: space-between;
+}
+.popular-nav img{
+    width: 20px;
+    height: 10px;
+}
+.minPopular{
+    
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.date-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgdiv,
+.price-div,
+.checkbox-div,
+.status-div,
+.sales-div,
+.option-div,
+.author-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.peach,
+.sky-blue,
+.light-puple,
+.drack-yellow{
+    background-color:#f1bdf8ff;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.sky-blue{
+    background-color: #99d3ffff;
+}
+.light-puple{
+    background-color: #b0aff1ff;
+
+}
+.drack-yellow{
+    background-color: #fde3bdff;
+
+}
+.popular-product-div{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+.imgdiv,
+.option-div,
+.checkbox-div{
+    margin-top: -13px;
+}
+.popular-product-div{
+    padding: 20PX;
+}
+#flexthem{
+    display: flex;
+}
+.smallblue{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 3px;
+}
+.smalllemon{
+    width: 10px;
+    height: 10px;
+    background-color: #1ad598ff;
+    border-radius: 3px;
+}
+.smallpink{
+    width: 10px;
+    height: 10px;
+    background-color: #db5aeeff;
+    border-radius: 3px;
+}
+.smallskyblue{
+    width: 10px;
+    height: 10px;
+    background-color: #0090ffff;
+    border-radius: 3px;
+}
+.month{
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.piechart{
+    width: 100%;
+}
+.smallcolor-words{
+    display: flex;
+    align-items: center;
+}
+.smallcolor-words div{
+    margin: 10px;
+}

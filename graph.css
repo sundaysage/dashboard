@@ -1,0 +1,232 @@
+:root {
+    --light-green: #b1f0dbff;
+    --hover-puple: #3a36dbff;
+    --barcolor-blue: #0090ffff;
+    --secondbar-grey: #d9e1e7ff;
+}
+
+.left-side {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid rgb(164, 163, 163);
+    width: 77%;
+    /* background-color: blueviolet; */
+}
+
+.graph {
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 0;
+    z-index: 2;
+}
+
+.graphtwo {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+
+}
+
+.graph div {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 5px;
+    background-color: var(--barcolor-blue);
+    width: 10%;
+}
+
+.graphtwo div {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin: 5px;
+    background-color: var(--secondbar-grey);
+    width: 10%;
+}
+
+.bars6 {
+    height: 60%;
+    animation: flowbar-6 10s ease-in-out;
+}
+
+.bars5 {
+    height: 50%;
+    animation: flowbar-5 10s ease-in-out;
+}
+
+.bars4 {
+    height: 40%;
+    animation: flowbar-4 10s ease-in-out;
+}
+
+.bars3 {
+    height: 30%;
+    animation: flowbar-3 10s ease-in-out;
+}
+
+.bars2 {
+    height: 20%;
+    animation: flowbar-2 10s ease-in-out;
+}
+
+.bars1 {
+    height: 10%;
+    animation: flowbar-1 10s ease-in-out;
+}
+
+.pop img {
+    width: 10rem;
+}
+
+.popimg {
+    display: block;
+    position: absolute;
+    top: 15%;
+    right: 48.5%;
+}
+.popimgs{
+    display: none;
+}
+
+.popimg2 {
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    z-index: 3;
+}
+.popimgs2{
+    display: none;
+}
+
+.popimg3 {
+    display: block;
+    position: absolute;
+    top: 13%;
+    right: 5%;
+}
+.popimgs3{
+    display: none;
+}
+
+.give-top {
+    /* display: none; */
+    margin: 10px;
+    position: relative;
+    display: flex;
+}
+
+@keyframes flowbar-6 {
+    0% {
+        height: 0%;
+    }
+
+    20% {
+        height: 10%;
+    }
+
+    50% {
+        height: 20%;
+
+    }
+
+    70% {
+        height: 40%;
+    }
+
+    100% {
+        height: 60%;
+    }
+}
+
+@keyframes flowbar-5 {
+    0% {
+        height: 0%;
+    }
+
+    50% {
+        height: 20%;
+
+    }
+
+    70% {
+        height: 40%;
+    }
+
+    100% {
+        height: 50%;
+    }
+}
+
+@keyframes flowbar-4 {
+    0% {
+        height: 0%;
+    }
+
+    20% {
+        height: 10%;
+    }
+
+    50% {
+        height: 20%;
+
+    }
+
+    100% {
+        height: 40%;
+    }
+
+}
+
+@keyframes flowbar-3 {
+    0% {
+        height: 0%;
+    }
+
+    20% {
+        height: 10%;
+    }
+
+    50% {
+        height: 20%;
+
+    }
+
+    100% {
+        height: 30%;
+    }
+}
+
+@keyframes flowbar-2 {
+    0% {
+        height: 0%;
+    }
+    50%{
+        height: 10%;
+    }
+    100%{
+        height: 20%;
+    }
+}
+
+    @keyframes flowbar-1 {
+        0% {
+            height: 0%;
+        }
+
+        50% {
+            height: 5%;
+        }
+
+        100% {
+            height: 10%;
+        }
+    }
